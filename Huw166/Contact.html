@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+       <meta charset="utf-8">
+        <title>James Duncan Minstries</title>
+     <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+         <link rel="icon" type="img/icon" href="img/icon.jpeg" />
+
+    </head>
+    <main>
+    <body>
+        <div id="container">
+  
+                 <div class="p-3 mb-2 bg-dark text-white"><ul class="nav"> 
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">Home</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="mission.html">Mission</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="events.html">Events</a>
+      </li>
+                   <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+            </div>
+     
+        <main> 
+           <div class="row">
+     <form action="index.html" method="post">
+    <h1>Sign Up</h1>
+    <fieldset>
+      <legend><span class="number">1</span> Your basic info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+      <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password">
+        <label>Age:</label>
+        <input type="radio" id="under_13" value="under_13" name="user_age">
+        <label for="under_13" class="light">Under 13</label><br>
+        <input type="radio" id="over_13" value="over_13" name="user_age">
+        <label for="over_13" class="light">13 or Older</label>
+      </fieldset>
+
+
+      <fieldset>
+        <legend><span class="number">2</span> Your profile</legend>
+        <label for="bio">Biography:</label>
+        <textarea id="bio" name="user_bio"></textarea>
+        <label for="job">Job role:</label>
+        <select id="job" name="user_job">
+          <optgroup label="Web">
+            <option value="frontend_developer">Front-End Developer</option>
+            <option value="php_developer">PHP Developer</option>
+            <option value="python_developer">Python Developer</option>
+            <option value="rails_developer">Rails Developer</option>
+            <option value="web_developer">Web Designer</option>
+            <option value="wordpress_developer">Wordpress Developer</option>
+          </optgroup>
+          <optgroup label="Mobile">
+            <option value="android_developer">Android Developer</option>
+            <option value="ios_developer">iOS Developer</option>
+            <option value="mobile_designer">Mobile Designer</option>
+          </optgroup>
+          <optgroup label="Business">
+          <option value="business_owner">Business Owner</option>
+          <option value="freelancer">Freelancer</option>
+        </optgroup>
+      </select>
+
+          <label><h3>Interests</h3>
+      <input type="checkbox" id="development" value="interest_development" name="user_interest">
+      <input class="light" for="development">Development</label><br>
+      <input type="checkbox" id="design" value="interest_design" name="user_interest">
+      <input class="light" for="design">Design<label><br>
+      <input type="checkbox" id="business" value="interest_business" name="user_interest">
+      <input class="light" for="business">Business</label><br>
+    </fieldset>
+      <a href="mailto:shadow89001@gmail.com">
+      <img src="img/email.png"height="70"width="70">E-mail us here</a>
+    
+               <form>
+                   <button type="submit">Sign Up</button>
+  </form>
+               </form>
+     
+        </div>
+      
+             <div class="p-3 mb-2 bg-dark text-white"><footer> 
+          <span>&copy;Joshua Duncan2018.</span>
+           
+                 </footer></div>
+            </main>
+        </div>
+        </body>
+    </main>
+</html>
+

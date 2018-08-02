@@ -1,0 +1,15 @@
+#navigation {
+list-style-type: none;
+width: 1024px;
+margin: 0px;
+padding-top: 20px;
+}
+#nav a {
+font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+text-decoration: none;
+color: #ededed;
+}
+.logo {
+   margin-bottom: 10px;
+   border-bottom: 1px solid #e2e2e2;
+ }
